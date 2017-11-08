@@ -52,11 +52,11 @@
 /Users/abdullahhashmi/Projects/DailyPlanet/iOS/bin/iPhone/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/abdullahhashmi/Projects/DailyPlanet/iOS/bin/iPhone/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/abdullahhashmi/Projects/DailyPlanet/iOS/bin/iPhone/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/abdullahhashmi/Projects/DailyPlanet/iOS/obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/ibtool/_BundleResourceWithLogicalName.items
-/Users/abdullahhashmi/Projects/DailyPlanet/iOS/obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/actool/_PartialAppManifest.items
-/Users/abdullahhashmi/Projects/DailyPlanet/iOS/obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/actool/_BundleResourceWithLogicalName.items
-/Users/abdullahhashmi/Projects/DailyPlanet/iOS/obj/iPhone/Debug/device-builds/iphone8.1-10.3.2/optimized/
 /Users/abdullahhashmi/Projects/DailyPlanet/iOS/obj/iPhone/Debug/DailyPlanet.iOS.csprojResolveAssemblyReference.cache
 /Users/abdullahhashmi/Projects/DailyPlanet/iOS/obj/iPhone/Debug/DailyPlanet.iOS.csproj.CoreCompileInputs.cache
 /Users/abdullahhashmi/Projects/DailyPlanet/iOS/obj/iPhone/Debug/DailyPlanet.iOS.exe
 /Users/abdullahhashmi/Projects/DailyPlanet/iOS/obj/iPhone/Debug/DailyPlanet.iOS.pdb
+/Users/abdullahhashmi/Projects/DailyPlanet/iOS/obj/iPhone/Debug/device-builds/iphone10.1-11.0.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/abdullahhashmi/Projects/DailyPlanet/iOS/obj/iPhone/Debug/device-builds/iphone10.1-11.0.3/actool/_PartialAppManifest.items
+/Users/abdullahhashmi/Projects/DailyPlanet/iOS/obj/iPhone/Debug/device-builds/iphone10.1-11.0.3/actool/_BundleResourceWithLogicalName.items
+/Users/abdullahhashmi/Projects/DailyPlanet/iOS/obj/iPhone/Debug/device-builds/iphone10.1-11.0.3/optimized/
