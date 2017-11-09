@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{06DE2965-5161-44B0-94F7-6B97827641FD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DailyPlanet/ItemPage.xaml.cs">
+    <Files>
+      <File FileName="DailyPlanet/ItemPage.xaml.cs" Line="19" Column="41" />
+      <File FileName="DailyPlanet/PlanetDatabase.cs" Line="4" Column="11" />
+      <File FileName="DailyPlanet/ItemListPage.xaml.cs" Line="32" Column="75" />
+      <File FileName="DailyPlanet/ILocalFileHelper.cs" Line="6" Column="50" />
+      <File FileName="DailyPlanet/ItemTable.cs" Line="2" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DailyPlanet.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CB572A94-D539-46D2-84F0-4B066D279BBA">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.DailyPlanet.iOS>
+</Properties>
