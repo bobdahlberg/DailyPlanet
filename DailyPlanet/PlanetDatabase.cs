@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using SQLite;
+using MySql.Data.MySqlClient;
 
 namespace DailyPlanet
 {

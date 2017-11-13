@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using MySql.Data.MySqlClient;
 
 namespace DailyPlanet
 {
@@ -11,8 +12,6 @@ namespace DailyPlanet
             InitializeComponent();
 
             MainPage = new NavigationPage(new DailyPlanetPage());
-
-
 
         }
 

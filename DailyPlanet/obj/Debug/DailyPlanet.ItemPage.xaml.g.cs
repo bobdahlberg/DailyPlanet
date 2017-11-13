@@ -11,7 +11,7 @@
 namespace DailyPlanet {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/abdullahhashmi/Projects/DailyPlanet/DailyPlanet/ItemPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/abdullahhashmi/DailyPlanet/DailyPlanet/ItemPage.xaml")]
     public partial class ItemPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -26,3 +26,9 @@
 /Users/abdullahhashmi/Projects/DailyPlanet/DailyPlanet/obj/Debug/DailyPlanet.dll
 /Users/abdullahhashmi/Projects/DailyPlanet/DailyPlanet/obj/Debug/DailyPlanet.pdb
 /Users/abdullahhashmi/Projects/DailyPlanet/DailyPlanet/obj/Debug/DailyPlanet.ItemPage.xaml.g.cs
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet/obj/Debug/DailyPlanet.csprojResolveAssemblyReference.cache
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet/obj/Debug/DailyPlanet.csproj.CoreCompileInputs.cache
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet/obj/Debug/DailyPlanet.App.xaml.g.cs
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet/obj/Debug/DailyPlanet.DailyPlanetPage.xaml.g.cs
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet/obj/Debug/DailyPlanet.ItemListPage.xaml.g.cs
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet/obj/Debug/DailyPlanet.ItemPage.xaml.g.cs

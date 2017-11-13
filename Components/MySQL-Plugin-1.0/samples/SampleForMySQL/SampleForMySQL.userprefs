@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{1ED1B9F6-D21E-41E8-A06F-F239B3515AC6}|Default">
+  <MonoDevelop.Ide.ItemProperties.MySQL__Demo.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../DailyPlanet/ItemListPage.xaml.cs">
+    <Files>
+      <File FileName="../../../../DailyPlanet/ItemListPage.xaml.cs" Line="37" Column="55" />
+      <File FileName="MySQL_Demo/App.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DailyPlanet" expanded="True">
+            <Node name="DailyPlanet" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="ItemListPage.xaml" expanded="True" />
+              <Node name="ItemPage.xaml" expanded="True" />
+            </Node>
+            <Node name="DailyPlanet.iOS" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="ComponentReferenceFolder" expanded="True" />
+            </Node>
+          </Node>
+          <Node name="SampleForMySQL" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MySQL__Demo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CB572A94-D539-46D2-84F0-4B066D279BBA" />
+  <MultiItemStartupConfigurations />
+</Properties>

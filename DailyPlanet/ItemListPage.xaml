@@ -4,7 +4,7 @@
         <ListView x:Name="ItemListView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" ItemSelected="ItemTable_ItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding ItemID}" Detail="{Binding ItemName}" />
+                    <TextCell Text="{Binding Path=itemBarcodeID}" Detail="{Binding Path=itemName}" />
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView> 

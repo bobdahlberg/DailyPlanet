@@ -1,12 +1,35 @@
 ﻿<Properties StartupConfiguration="{06DE2965-5161-44B0-94F7-6B97827641FD}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DailyPlanet/ItemPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DailyPlanet/ItemListPage.xaml.cs">
     <Files>
-      <File FileName="DailyPlanet/ItemPage.xaml.cs" Line="19" Column="41" />
-      <File FileName="DailyPlanet/PlanetDatabase.cs" Line="4" Column="11" />
-      <File FileName="DailyPlanet/ItemListPage.xaml.cs" Line="32" Column="75" />
-      <File FileName="DailyPlanet/ILocalFileHelper.cs" Line="6" Column="50" />
-      <File FileName="DailyPlanet/ItemTable.cs" Line="2" Column="13" />
+      <File FileName="DailyPlanet/ItemListPage.xaml.cs" Line="39" Column="13" />
+      <File FileName="iOS/Main.cs" Line="20" Column="13" />
+      <File FileName="DailyPlanet/DailyPlanetPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="DailyPlanet/packages.config" Line="1" Column="1" />
+      <File FileName="DailyPlanet/app.config" Line="1" Column="1" />
+      <File FileName="DailyPlanet/App.xaml.cs" Line="16" Column="13" />
+      <File FileName="DailyPlanet/DailyPlanetPage.xaml" Line="11" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DailyPlanet" expanded="True">
+            <Node name="DailyPlanet" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="DailyPlanetPage.xaml" expanded="True" />
+              <Node name="ItemListPage.xaml" expanded="True">
+                <Node name="ItemListPage.xaml.cs" selected="True" />
+              </Node>
+              <Node name="ItemPage.xaml" expanded="True" />
+            </Node>
+            <Node name="DailyPlanet.iOS" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="ComponentReferenceFolder" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
