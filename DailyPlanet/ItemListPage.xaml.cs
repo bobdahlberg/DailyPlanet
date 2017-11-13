@@ -31,28 +31,9 @@ namespace DailyPlanet
 
 
 
-
             ItemListView.ItemsSource = await App.Database.GetItemsAsync();
-        }
 
-        public void createDB()
-        {
-            MySqlConnection conn;
-
-            string connsqlstring = "Server=127.0.0.1;Port=3306;database=sys;User Id=root;Password=123456;charset=utf8";
-
-            conn = new MySqlConnection(connsqlstring);
-
-
-            //conn.Open();
-
-            string queryString = "select * from sys.itemTbl";
-
-            MySqlCommand sqlcmd = new MySqlCommand(queryString, conn);
-
-            //string result = sqlcmd.ExecuteScalar().ToString();
-
-
+             
         }
 
         async void ItemTable_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)

@@ -130,10 +130,13 @@
     <Reference Include="ZXing.Net.Mobile.Forms.iOS">
       <HintPath>..\packages\ZXing.Net.Mobile.Forms.2.3.2\lib\Xamarin.iOS10\ZXing.Net.Mobile.Forms.iOS.dll</HintPath>
     </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="I18N.CJK" />
+    <Reference Include="I18N" />
+    <Reference Include="I18N.West" />
     <Reference Include="MySql.Data.CF">
       <HintPath>..\Components\MySQL-Plugin-1.0\lib\ios-unified\MySql.Data.CF.dll</HintPath>
     </Reference>
-    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DailyPlanet\DailyPlanet.csproj">
@@ -171,10 +174,6 @@
     </XamarinComponentReference>
     <XamarinComponentReference Include="zxing.net.mobile">
       <Version>2.1.12</Version>
-      <Visible>False</Visible>
-    </XamarinComponentReference>
-    <XamarinComponentReference Include="MySQL-Plugin">
-      <Version>1.0</Version>
       <Visible>False</Visible>
     </XamarinComponentReference>
   </ItemGroup>

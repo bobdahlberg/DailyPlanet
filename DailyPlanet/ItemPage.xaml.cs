@@ -14,6 +14,7 @@ namespace DailyPlanet
 
         async void Save_Clicked(object sender, EventArgs e)
         {
+
             var personalItem = (ItemTable)BindingContext;
             await App.Database.SaveItemAsync(personalItem);
             await Navigation.PopAsync();

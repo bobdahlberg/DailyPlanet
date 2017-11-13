@@ -1,5 +1,7 @@
 ﻿using Xamarin.Forms;
 using MySql.Data.MySqlClient;
+using I18N.West;
+using System;
 
 namespace DailyPlanet
 {
@@ -12,6 +14,30 @@ namespace DailyPlanet
             InitializeComponent();
 
             MainPage = new NavigationPage(new DailyPlanetPage());
+
+
+
+        }
+
+        public void CreateDB()
+        {
+            new I18N.West.CP1250();
+
+            MySqlConnection conn;
+
+            string connsqlstring = "Server=127.0.0.1;Port=3306;database=sys;User Id=root;Password=123456;charset=utf8";
+
+            conn = new MySqlConnection(connsqlstring);
+
+
+            //conn.Open();
+
+            string queryString = "select * from sys.itemTbl";
+
+            MySqlCommand sqlcmd = new MySqlCommand(queryString, conn);
+
+            //string result = sqlcmd.ExecuteScalar().ToString();
+
 
         }
 
