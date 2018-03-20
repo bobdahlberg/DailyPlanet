@@ -1,0 +1,8 @@
+/Users/abdullahhashmi/Projects/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhone/Debug/DailyPlanet_IOS.app:/Users/abdullahhashmi/Projects/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/mtouch-cache/Link/DailyPlanet_IOS.exe
+/Users/abdullahhashmi/Projects/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhone/Debug/DailyPlanet_IOS.app:/Users/abdullahhashmi/Projects/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/mtouch-cache/Link/mscorlib.dll
+/Users/abdullahhashmi/Projects/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhone/Debug/DailyPlanet_IOS.app:/Users/abdullahhashmi/Projects/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/abdullahhashmi/Projects/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhone/Debug/DailyPlanet_IOS.app:/Users/abdullahhashmi/Projects/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/mtouch-cache/Link/System.dll
+/Users/abdullahhashmi/Projects/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhone/Debug/DailyPlanet_IOS.app:/Users/abdullahhashmi/Projects/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/mtouch-cache/Link/System.Core.dll
+/Users/abdullahhashmi/Projects/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhone/Debug/DailyPlanet_IOS.app:/Users/abdullahhashmi/Projects/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/mtouch-cache/Link/ZXingNetMobile.dll
+/Users/abdullahhashmi/Projects/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhone/Debug/DailyPlanet_IOS.app:/Users/abdullahhashmi/Projects/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/mtouch-cache/Link/ZXing.Net.Mobile.Core.dll
+/Users/abdullahhashmi/Projects/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhone/Debug/DailyPlanet_IOS.app:/Users/abdullahhashmi/Projects/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/mtouch-cache/Link/zxing.portable.dll

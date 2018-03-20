@@ -1,0 +1,23 @@
+Function=xamarin_timezone_get_data
+	/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/ipad4.1-11.2.5/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/ipad4.1-11.2.5/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/ipad4.1-11.2.5/mtouch-cache/Link/mscorlib.dll
+Function=UIApplicationMain
+	/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/ipad4.1-11.2.5/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/ipad4.1-11.2.5/mtouch-cache/Link/Xamarin.iOS.dll
+Function=CreateZStream
+	/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/ipad4.1-11.2.5/mtouch-cache/Link/System.dll
+Function=CloseZStream
+	/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/ipad4.1-11.2.5/mtouch-cache/Link/System.dll
+Function=Flush
+	/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/ipad4.1-11.2.5/mtouch-cache/Link/System.dll
+Function=ReadZStream
+	/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/ipad4.1-11.2.5/mtouch-cache/Link/System.dll
+Function=WriteZStream
+	/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/ipad4.1-11.2.5/mtouch-cache/Link/System.dll
+Function=xamarin_start_wwan
+	/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/ipad4.1-11.2.5/mtouch-cache/Link/System.dll
+Function=mono_pmip
