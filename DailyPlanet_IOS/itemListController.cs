@@ -192,7 +192,7 @@ namespace DailyPlanet_IOS
             ItemController controller = new ItemController();
             this.NavigationController.PushViewController(controller, true);
             controller.itemNameText = selectedItem.itemName;
-            controller.barCodeLableText = selectedItem.itemCode;
+            controller.barCodeLabelText = selectedItem.itemCode;
             controller.itemNumberText = selectedItem.itemNumber;
         }
 

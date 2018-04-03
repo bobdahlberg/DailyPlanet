@@ -1,17 +1,15 @@
 ﻿<Properties StartupConfiguration="{7D698B11-BBA7-4290-834E-BF3C8629EF6D}|Default">
   <MonoDevelop.Ide.ItemProperties.DailyPlanet__IOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7479B3F5-108E-4224-84CD-5E95B7CAA697" automaticSigning="False" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DailyPlanet_IOS/itemListController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DailyPlanet_IOS/Main.storyboard">
     <Files>
-      <File FileName="DailyPlanet_IOS/itemListController.cs" Line="129" Column="14" />
-      <File FileName="DailyPlanet_IOS/BaseTableViewController.cs" Line="22" Column="15" />
-      <File FileName="DailyPlanet_IOS/ResultsTableController.cs" Line="21" Column="1" />
-      <File FileName="DailyPlanet_IOS/ItemCellX.xib" />
-      <File FileName="DailyPlanet_IOS/ItemController.cs" Line="49" Column="1" />
-      <File FileName="DailyPlanet_IOS/ViewController.cs" Line="40" Column="13" />
-      <File FileName="DailyPlanet_IOS/itemCell.cs" Line="1" Column="1" />
-      <File FileName="DailyPlanet_IOS/Info.plist" />
-      <File FileName="DailyPlanet_IOS/Main.cs" Line="12" Column="1" />
+      <File FileName="DailyPlanet_IOS/ItemController.xib" Line="1" Column="1" />
       <File FileName="DailyPlanet_IOS/Main.storyboard" />
+      <File FileName="DailyPlanet_IOS/Info.plist" />
+      <File FileName="DailyPlanet_IOS/ItemController.cs" Line="9" Column="1" />
+      <File FileName="DailyPlanet_IOS/itemListController.cs" Line="195" Column="40" />
+      <File FileName="DailyPlanet_IOS/ViewController.cs" Line="80" Column="32" />
+      <File FileName="DailyPlanet_IOS/LaunchScreen.storyboard" />
+      <File FileName="DailyPlanet_IOS/ItemController.designer.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

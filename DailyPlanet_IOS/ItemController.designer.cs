@@ -28,7 +28,7 @@ namespace DailyPlanet_IOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel barcodeLable { get; set; }
+        UIKit.UILabel barcodeLabel { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -40,27 +40,19 @@ namespace DailyPlanet_IOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton minusBtn { get; set; }
+        UIKit.UIButton MinusBtn { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton plusBtn { get; set; }
+        UIKit.UIButton PlusBtn { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton submitBtn { get; set; }
+        UIKit.UIButton SubmitBtn { get; set; }
 
         [Action ("addSwitchValueChanged:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void addSwitchValueChanged (UIKit.UISwitch sender);
-
-        [Action ("MinusBtn_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void MinusBtn_TouchUpInside (UIKit.UIButton sender);
-
-        [Action ("PlusBtn_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void PlusBtn_TouchUpInside (UIKit.UIButton sender);
 
         [Action ("SubmitBtn_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -83,9 +75,9 @@ namespace DailyPlanet_IOS
                 addSwitch = null;
             }
 
-            if (barcodeLable != null) {
-                barcodeLable.Dispose ();
-                barcodeLable = null;
+            if (barcodeLabel != null) {
+                barcodeLabel.Dispose ();
+                barcodeLabel = null;
             }
 
             if (itemName != null) {
@@ -98,19 +90,19 @@ namespace DailyPlanet_IOS
                 itemNum = null;
             }
 
-            if (minusBtn != null) {
-                minusBtn.Dispose ();
-                minusBtn = null;
+            if (MinusBtn != null) {
+                MinusBtn.Dispose ();
+                MinusBtn = null;
             }
 
-            if (plusBtn != null) {
-                plusBtn.Dispose ();
-                plusBtn = null;
+            if (PlusBtn != null) {
+                PlusBtn.Dispose ();
+                PlusBtn = null;
             }
 
-            if (submitBtn != null) {
-                submitBtn.Dispose ();
-                submitBtn = null;
+            if (SubmitBtn != null) {
+                SubmitBtn.Dispose ();
+                SubmitBtn = null;
             }
         }
     }

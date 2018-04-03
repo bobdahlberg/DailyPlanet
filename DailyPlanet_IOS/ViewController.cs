@@ -82,7 +82,7 @@ namespace DailyPlanet_IOS
 
                 ItemController controller = new ItemController();
                 this.NavigationController.PushViewController(controller, true);
-                controller.barCodeLableText = code;
+                controller.barCodeLabelText = code;
                 controller.itemNameText = "Bandage, Adhsv Shr Strp 1x3 (100/bx 24bx/cs) Mgm16";
                 controller.itemNumberText = "15";
                 //controller.addLabelText = query;

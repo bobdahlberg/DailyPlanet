@@ -21,6 +21,10 @@ namespace DailyPlanet_IOS
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton scanBtn { get; set; }
 
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton WeeklyReportBtn { get; set; }
+
         [Action ("ItemListButton_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void ItemListButton_TouchUpInside (UIKit.UIButton sender);
@@ -39,6 +43,11 @@ namespace DailyPlanet_IOS
             if (scanBtn != null) {
                 scanBtn.Dispose ();
                 scanBtn = null;
+            }
+
+            if (WeeklyReportBtn != null) {
+                WeeklyReportBtn.Dispose ();
+                WeeklyReportBtn = null;
             }
         }
     }

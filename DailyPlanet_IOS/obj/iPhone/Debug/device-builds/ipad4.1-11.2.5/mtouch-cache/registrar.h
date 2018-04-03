@@ -105,6 +105,7 @@
 }
 	@property (nonatomic, assign) UIButton * itemListButton;
 	@property (nonatomic, assign) UIButton * scanBtn;
+	@property (nonatomic, assign) UIButton * WeeklyReportBtn;
 	-(void) release;
 	-(id) retain;
 	-(int) xamarinGetGCHandle;
@@ -113,6 +114,8 @@
 	-(void) setItemListButton:(UIButton *)p0;
 	-(UIButton *) scanBtn;
 	-(void) setScanBtn:(UIButton *)p0;
+	-(UIButton *) WeeklyReportBtn;
+	-(void) setWeeklyReportBtn:(UIButton *)p0;
 	-(void) viewDidLoad;
 	-(void) prepareForSegue:(UIStoryboardSegue *)p0 sender:(NSObject *)p1;
 	-(void) didReceiveMemoryWarning;
@@ -125,12 +128,12 @@
 	@property (nonatomic, assign) UILabel * addLabel;
 	@property (nonatomic, assign) UILabel * addRemoveNum;
 	@property (nonatomic, assign) UISwitch * addSwitch;
-	@property (nonatomic, assign) UILabel * barcodeLable;
+	@property (nonatomic, assign) UILabel * barcodeLabel;
 	@property (nonatomic, assign) UILabel * itemName;
 	@property (nonatomic, assign) UILabel * itemNum;
-	@property (nonatomic, assign) UIButton * minusBtn;
-	@property (nonatomic, assign) UIButton * plusBtn;
-	@property (nonatomic, assign) UIButton * submitBtn;
+	@property (nonatomic, assign) UIButton * MinusBtn;
+	@property (nonatomic, assign) UIButton * PlusBtn;
+	@property (nonatomic, assign) UIButton * SubmitBtn;
 	-(void) release;
 	-(id) retain;
 	-(int) xamarinGetGCHandle;
@@ -141,17 +144,17 @@
 	-(void) setAddRemoveNum:(UILabel *)p0;
 	-(UISwitch *) addSwitch;
 	-(void) setAddSwitch:(UISwitch *)p0;
-	-(UILabel *) barcodeLable;
-	-(void) setBarcodeLable:(UILabel *)p0;
+	-(UILabel *) barcodeLabel;
+	-(void) setBarcodeLabel:(UILabel *)p0;
 	-(UILabel *) itemName;
 	-(void) setItemName:(UILabel *)p0;
 	-(UILabel *) itemNum;
 	-(void) setItemNum:(UILabel *)p0;
-	-(UIButton *) minusBtn;
+	-(UIButton *) MinusBtn;
 	-(void) setMinusBtn:(UIButton *)p0;
-	-(UIButton *) plusBtn;
+	-(UIButton *) PlusBtn;
 	-(void) setPlusBtn:(UIButton *)p0;
-	-(UIButton *) submitBtn;
+	-(UIButton *) SubmitBtn;
 	-(void) setSubmitBtn:(UIButton *)p0;
 	-(void) viewDidLoad;
 	-(void) didReceiveMemoryWarning;

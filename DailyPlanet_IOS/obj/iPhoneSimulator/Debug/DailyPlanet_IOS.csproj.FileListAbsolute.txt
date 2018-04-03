@@ -66,3 +66,27 @@
 /Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/bin/iPhoneSimulator/Debug/ZXingNetMobile.dll
 /Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/DailyPlanet_IOS.exe
 /Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/DailyPlanet_IOS.pdb
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/bin/iPhoneSimulator/Debug/DailyPlanet_IOS.exe.config
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/bin/iPhoneSimulator/Debug/DailyPlanet_IOS.exe
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/bin/iPhoneSimulator/Debug/DailyPlanet_IOS.pdb
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/bin/iPhoneSimulator/Debug/MySql.Data.CF.dll
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/bin/iPhoneSimulator/Debug/System.Configuration.ConfigurationManager.dll
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/bin/iPhoneSimulator/Debug/System.Security.AccessControl.dll
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/bin/iPhoneSimulator/Debug/System.Security.Permissions.dll
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/bin/iPhoneSimulator/Debug/System.Security.Principal.Windows.dll
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/bin/iPhoneSimulator/Debug/ZXing.Net.Mobile.Core.dll
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/bin/iPhoneSimulator/Debug/zxing.portable.dll
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/bin/iPhoneSimulator/Debug/ZXingNetMobile.dll
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/_PartialAppManifest.items
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/_BundleResourceWithLogicalName.items
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Pics/TDP-logo-1 (1).png
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Pics/sirach.png
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Pics/minus_button_2-512.png
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Pics/add-512.png
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Pics/bandagepic.png
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/DailyPlanet_IOS.csprojResolveAssemblyReference.cache
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/DailyPlanet_IOS.csproj.CoreCompileInputs.cache
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/DailyPlanet_IOS.exe
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/DailyPlanet_IOS.pdb

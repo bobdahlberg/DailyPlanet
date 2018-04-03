@@ -88,7 +88,7 @@ namespace DailyPlanet_IOS
             set;
         }
 
-        public string barCodeLableText
+        public string barCodeLabelText
         {
             get;
             set;
@@ -135,7 +135,7 @@ namespace DailyPlanet_IOS
             base.ViewDidLoad();
 
             //Here is where we set the actual barcodeLable text
-            barcodeLable.Text = barCodeLableText;
+            barcodeLabel.Text = barCodeLabelText;
             itemName.Text = itemNameText;
             itemNum.Text = itemNumberText;
             //And here is where we set the addLable text

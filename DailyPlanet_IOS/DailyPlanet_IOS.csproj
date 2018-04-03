@@ -121,7 +121,6 @@
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <InterfaceDefinition Include="Main.storyboard" />
-    <InterfaceDefinition Include="ItemController.xib" />
     <InterfaceDefinition Include="Resources\en.lproj\Main.storyboard" />
     <InterfaceDefinition Include="ItemCellX.xib" />
   </ItemGroup>
@@ -161,6 +160,15 @@
     <BundleResource Include="Pics\minus_button_2-512.png" />
     <BundleResource Include="Pics\add-512.png" />
     <BundleResource Include="Pics\bandagepic.png" />
+    <BundleResource Include="Pics\upButton.png" />
+    <BundleResource Include="Pics\itemEditBox.png" />
+    <BundleResource Include="Pics\InfoBox.png" />
+    <BundleResource Include="Pics\functionLabel.png" />
+    <BundleResource Include="Pics\downButton.png" />
+    <BundleResource Include="Pics\scanbutton2.png" />
+    <BundleResource Include="Pics\Inventory.png" />
+    <BundleResource Include="Pics\WeeklyReport2.png" />
+    <BundleResource Include="Pics\DailyPlanetbackground.png" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="zxing.net.mobile">
