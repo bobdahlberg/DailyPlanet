@@ -25,7 +25,7 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
-	/Users/abdullahhashmi/DailyPlanet/Components/MySQL-Plugin-1.0/lib/ios-unified/MySql.Data.CF.dll \
+	/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/Components/MySQL-Plugin-1.0/lib/ios-unified/MySql.Data.CF.dll \
 	-r \
 	/Users/abdullahhashmi/DailyPlanet/packages/System.Configuration.ConfigurationManager.4.4.0/lib/netstandard2.0/System.Configuration.ConfigurationManager.dll \
 	-r \
@@ -325,7 +325,7 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
-	/Users/abdullahhashmi/DailyPlanet/Components/MySQL-Plugin-1.0/lib/ios-unified/MySql.Data.CF.dll \
+	/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/Components/MySQL-Plugin-1.0/lib/ios-unified/MySql.Data.CF.dll \
 	-r \
 	/Users/abdullahhashmi/DailyPlanet/packages/System.Configuration.ConfigurationManager.4.4.0/lib/netstandard2.0/System.Configuration.ConfigurationManager.dll \
 	-r \

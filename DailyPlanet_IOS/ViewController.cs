@@ -18,6 +18,10 @@ namespace DailyPlanet_IOS
             // Note: this .ctor should not contain any initialization logic.
         }
 
+        public ViewController()
+        {
+            
+        }
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
@@ -38,7 +42,7 @@ namespace DailyPlanet_IOS
         {
             /*
             MySqlConnection sqlconn;
-            string connsqlstring = "Server=dailyplanetdb.cxsnwexuvrto.us-east-1.rds.amazonaws.com;Port=3306;database=dptest;User Id=dailyplanet;Password=westgrace123;charset=utf8";
+            string connsqlstring = "Server=dailyplanetinstance.cxsnwexuvrto.us-east-1.rds.amazonaws.com;Port=3306;database=dpdb;User Id=dailyplanet;Password=180beltgracE14;charset=utf8";            
             sqlconn = new MySqlConnection();
             sqlconn.ConnectionString = connsqlstring;
             MySqlDataAdapter da;
@@ -67,7 +71,13 @@ namespace DailyPlanet_IOS
             };
 
             options.PossibleFormats = new List<ZXing.BarcodeFormat>(){
-                ZXing.BarcodeFormat.EAN_8, ZXing.BarcodeFormat.EAN_13
+                ZXing.BarcodeFormat.EAN_8, ZXing.BarcodeFormat.EAN_13, ZXing.BarcodeFormat.IMB,
+                ZXing.BarcodeFormat.All_1D, ZXing.BarcodeFormat.CODE_39, ZXing.BarcodeFormat.CODE_93,
+                ZXing.BarcodeFormat.CODE_128,ZXing.BarcodeFormat.CODABAR, ZXing.BarcodeFormat.ITF,
+                ZXing.BarcodeFormat.RSS_14, ZXing.BarcodeFormat.RSS_EXPANDED, ZXing.BarcodeFormat.UPC_A,
+                ZXing.BarcodeFormat.UPC_E, ZXing.BarcodeFormat.UPC_EAN_EXTENSION, ZXing.BarcodeFormat.MSI,
+                ZXing.BarcodeFormat.DATA_MATRIX, ZXing.BarcodeFormat.PDF_417, ZXing.BarcodeFormat.AZTEC,
+                ZXing.BarcodeFormat.QR_CODE
             };
 
             var scanner = new ZXing.Mobile.MobileBarcodeScanner(this);
@@ -76,18 +86,67 @@ namespace DailyPlanet_IOS
             //Grabs the scanner result and displays it in the new page
             //The new page is the itemController
             var result = await scanner.Scan(options, true);
+
             string code = result.Text;
             if (result != null)
             {
+                MySqlConnection sqlconn;
+                string connsqlstring = "Server=dailyplanetinstance.cxsnwexuvrto.us-east-1.rds.amazonaws.com;Port=3306;database=dpdb;User Id=dailyplanet;Password=180beltgracE14;charset=utf8";
+                sqlconn = new MySqlConnection();
+                sqlconn.ConnectionString = connsqlstring;
+                sqlconn.Open();
+                string queryName = "select itemName from dpdb.itemTable where itemID = " + "'" + code + "'";
+                string queryQuant = "select itemQuantity from dpdb.itemTable where itemID = " + "'" + code + "'";
 
-                ItemController controller = new ItemController();
-                this.NavigationController.PushViewController(controller, true);
-                controller.barCodeLabelText = code;
-                controller.itemNameText = "Bandage, Adhsv Shr Strp 1x3 (100/bx 24bx/cs) Mgm16";
-                controller.itemNumberText = "15";
-                //controller.addLabelText = query;
+                List<String> columnNames = new List<String>();
+                List<String> columnQuant = new List<String>();
 
-                Console.WriteLine("Scanned Barcode: " + result.Text);
+                using (MySqlCommand command = new MySqlCommand(queryName, sqlconn))
+                {
+                    using(MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            columnNames.Add(reader.GetString(0));
+                        }
+                        reader.Close();
+                    }
+                }
+                using (MySqlCommand command = new MySqlCommand(queryQuant, sqlconn))
+                {
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            columnQuant.Add(reader.GetString(0));
+                        }
+                        reader.Close();
+                    }
+                }
+
+                sqlconn.Close();
+
+
+                if(columnNames.Count == 0)
+                {
+                    var finishedAlert = UIAlertController.Create(
+                    "Item not found!", "The barcode you have scanned is not in the database.", UIAlertControllerStyle.Alert);
+
+                    finishedAlert.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Default, (UIAlertAction OBJ) =>
+                    {
+
+                    }));
+
+                    PresentViewController(finishedAlert, true, null);
+                }
+                else
+                {
+                    itemPageController controller = this.Storyboard.InstantiateViewController("itemStory") as itemPageController;
+                    this.NavigationController.PushViewController(controller, true);
+                    controller.barcodeLabelText = code;
+                    controller.itemNameText = columnNames[0];
+                    controller.itemNumberText = columnQuant[0];
+                }
             }
 
         }
@@ -103,6 +162,13 @@ namespace DailyPlanet_IOS
             //expresses the highest resolution. This could probably be more thorough.
             return availableResolutions[availableResolutions.Count - 1];
         }
+
+        partial void AddItemBtn_TouchUpInside(UIButton sender)
+        {
+            addItemController controller = this.Storyboard.InstantiateViewController("addItemStory") as addItemController;;
+            this.NavigationController.PushViewController(controller, true);
+        }
+ 
 
         public override void DidReceiveMemoryWarning()
         {

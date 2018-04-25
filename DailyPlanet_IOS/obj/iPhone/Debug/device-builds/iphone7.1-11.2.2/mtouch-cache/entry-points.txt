@@ -1,9 +1,0 @@
-Function=xamarin_timezone_get_data
-	/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone7.1-11.2.2/mtouch-cache/Link/mscorlib.dll
-Function=xamarin_log
-	/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone7.1-11.2.2/mtouch-cache/Link/mscorlib.dll
-Function=UIApplicationMain
-	/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone7.1-11.2.2/mtouch-cache/Link/Xamarin.iOS.dll
-Function=xamarin_get_block_descriptor
-	/Users/abdullahhashmi/DailyPlanet_IOS/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/iphone7.1-11.2.2/mtouch-cache/Link/Xamarin.iOS.dll
-Function=mono_pmip

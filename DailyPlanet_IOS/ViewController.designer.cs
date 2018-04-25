@@ -15,15 +15,19 @@ namespace DailyPlanet_IOS
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton addItemBtn { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton itemListButton { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton scanBtn { get; set; }
 
-        [Outlet]
+        [Action ("AddItemBtn_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton WeeklyReportBtn { get; set; }
+        partial void AddItemBtn_TouchUpInside (UIKit.UIButton sender);
 
         [Action ("ItemListButton_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -35,6 +39,11 @@ namespace DailyPlanet_IOS
 
         void ReleaseDesignerOutlets ()
         {
+            if (addItemBtn != null) {
+                addItemBtn.Dispose ();
+                addItemBtn = null;
+            }
+
             if (itemListButton != null) {
                 itemListButton.Dispose ();
                 itemListButton = null;
@@ -43,11 +52,6 @@ namespace DailyPlanet_IOS
             if (scanBtn != null) {
                 scanBtn.Dispose ();
                 scanBtn = null;
-            }
-
-            if (WeeklyReportBtn != null) {
-                WeeklyReportBtn.Dispose ();
-                WeeklyReportBtn = null;
             }
         }
     }

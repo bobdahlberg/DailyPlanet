@@ -43,5 +43,14 @@
         <image name="Pics/minus_button_2-512.png" width="512" height="512"/>
         <image name="Pics/add-512.png" width="512" height="512"/>
         <image name="Pics/bandagepic.png" width="480" height="480"/>
+        <image name="Pics/upButton.png" width="629" height="593"/>
+        <image name="Pics/itemEditBox.png" width="2120" height="2001"/>
+        <image name="Pics/InfoBox.png" width="2120" height="1812"/>
+        <image name="Pics/functionLabel.png" width="1013" height="413"/>
+        <image name="Pics/downButton.png" width="556" height="518"/>
+        <image name="Pics/scanbutton2.png" width="1284" height="1734"/>
+        <image name="Pics/Inventory.png" width="748" height="800"/>
+        <image name="Pics/WeeklyReport2.png" width="755" height="857"/>
+        <image name="Pics/DailyPlanetbackground.png" width="960" height="1704"/>
     </resources>
 </document>

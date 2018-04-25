@@ -150,8 +150,8 @@ namespace DailyPlanet_IOS
                 IEnumerable<Item> query =
                     from p in itemList
                         where p.itemName.IndexOf(item, StringComparison.OrdinalIgnoreCase) >= 0
-                               || p.itemCode == code.ToString()
-                               || p.itemNumber == number.ToString()
+                               //|| p.itemCode == code.ToString()
+                               //|| p.itemNumber == number.ToString()
                                orderby p.itemName
                     select p;
 
@@ -189,10 +189,10 @@ namespace DailyPlanet_IOS
         {
             Item selectedItem = (tableView == TableView) ? itemList[indexPath.Row] : resultsTableController.FilteredProducts[indexPath.Row];
 
-            ItemController controller = new ItemController();
+            itemPageController controller = this.Storyboard.InstantiateViewController("itemStory") as itemPageController;
             this.NavigationController.PushViewController(controller, true);
             controller.itemNameText = selectedItem.itemName;
-            controller.barCodeLabelText = selectedItem.itemCode;
+            controller.barcodeLabelText = selectedItem.itemCode;
             controller.itemNumberText = selectedItem.itemNumber;
         }
 

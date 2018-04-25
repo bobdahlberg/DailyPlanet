@@ -23,8 +23,9 @@
 @class DailyPlanet_IOS_BaseTableViewController;
 @class DailyPlanet_IOS_ResultsTableController;
 @class ViewController;
-@class ItemController;
 @class itemListController;
+@class itemPageController;
+@class addItemController;
 @class __UIGestureRecognizerToken;
 @class __UIGestureRecognizerParameterlessToken;
 @class __UIGestureRecognizerParametrizedToken;
@@ -103,65 +104,24 @@
 
 @interface ViewController : UIViewController {
 }
+	@property (nonatomic, assign) UIButton * addItemBtn;
 	@property (nonatomic, assign) UIButton * itemListButton;
 	@property (nonatomic, assign) UIButton * scanBtn;
-	@property (nonatomic, assign) UIButton * WeeklyReportBtn;
 	-(void) release;
 	-(id) retain;
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UIButton *) addItemBtn;
+	-(void) setAddItemBtn:(UIButton *)p0;
 	-(UIButton *) itemListButton;
 	-(void) setItemListButton:(UIButton *)p0;
 	-(UIButton *) scanBtn;
 	-(void) setScanBtn:(UIButton *)p0;
-	-(UIButton *) WeeklyReportBtn;
-	-(void) setWeeklyReportBtn:(UIButton *)p0;
 	-(void) viewDidLoad;
 	-(void) prepareForSegue:(UIStoryboardSegue *)p0 sender:(NSObject *)p1;
 	-(void) didReceiveMemoryWarning;
+	-(void) AddItemBtn_TouchUpInside:(UIButton *)p0;
 	-(void) ScanBtn_TouchUpInside:(UIButton *)p0;
-	-(BOOL) conformsToProtocol:(void *)p0;
-@end
-
-@interface ItemController : UIViewController {
-}
-	@property (nonatomic, assign) UILabel * addLabel;
-	@property (nonatomic, assign) UILabel * addRemoveNum;
-	@property (nonatomic, assign) UISwitch * addSwitch;
-	@property (nonatomic, assign) UILabel * barcodeLabel;
-	@property (nonatomic, assign) UILabel * itemName;
-	@property (nonatomic, assign) UILabel * itemNum;
-	@property (nonatomic, assign) UIButton * MinusBtn;
-	@property (nonatomic, assign) UIButton * PlusBtn;
-	@property (nonatomic, assign) UIButton * SubmitBtn;
-	-(void) release;
-	-(id) retain;
-	-(int) xamarinGetGCHandle;
-	-(void) xamarinSetGCHandle: (int) gchandle;
-	-(UILabel *) addLabel;
-	-(void) setAddLabel:(UILabel *)p0;
-	-(UILabel *) addRemoveNum;
-	-(void) setAddRemoveNum:(UILabel *)p0;
-	-(UISwitch *) addSwitch;
-	-(void) setAddSwitch:(UISwitch *)p0;
-	-(UILabel *) barcodeLabel;
-	-(void) setBarcodeLabel:(UILabel *)p0;
-	-(UILabel *) itemName;
-	-(void) setItemName:(UILabel *)p0;
-	-(UILabel *) itemNum;
-	-(void) setItemNum:(UILabel *)p0;
-	-(UIButton *) MinusBtn;
-	-(void) setMinusBtn:(UIButton *)p0;
-	-(UIButton *) PlusBtn;
-	-(void) setPlusBtn:(UIButton *)p0;
-	-(UIButton *) SubmitBtn;
-	-(void) setSubmitBtn:(UIButton *)p0;
-	-(void) viewDidLoad;
-	-(void) didReceiveMemoryWarning;
-	-(void) addSwitchValueChanged:(UISwitch *)p0;
-	-(void) MinusBtn_TouchUpInside:(UIButton *)p0;
-	-(void) PlusBtn_TouchUpInside:(UIButton *)p0;
-	-(void) SubmitBtn_TouchUpInside:(UIButton *)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end
@@ -189,6 +149,98 @@
 	-(id) init;
 @end
 
+@interface itemPageController : UIViewController {
+}
+	@property (nonatomic, assign) UILabel * addLabel;
+	@property (nonatomic, assign) UILabel * addRemoveNum;
+	@property (nonatomic, assign) UISwitch * addSwitch;
+	@property (nonatomic, assign) UILabel * barcodeLabel;
+	@property (nonatomic, assign) UILabel * expDate;
+	@property (nonatomic, assign) UILabel * itemName;
+	@property (nonatomic, assign) UILabel * itemNum;
+	@property (nonatomic, assign) UIButton * MinusBtn;
+	@property (nonatomic, assign) UIButton * PlusBtn;
+	@property (nonatomic, assign) UIButton * scanBtn;
+	@property (nonatomic, assign) UIButton * SubmitBtn;
+	@property (nonatomic, assign) UIButton * updateExpBtn;
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UILabel *) addLabel;
+	-(void) setAddLabel:(UILabel *)p0;
+	-(UILabel *) addRemoveNum;
+	-(void) setAddRemoveNum:(UILabel *)p0;
+	-(UISwitch *) addSwitch;
+	-(void) setAddSwitch:(UISwitch *)p0;
+	-(UILabel *) barcodeLabel;
+	-(void) setBarcodeLabel:(UILabel *)p0;
+	-(UILabel *) expDate;
+	-(void) setExpDate:(UILabel *)p0;
+	-(UILabel *) itemName;
+	-(void) setItemName:(UILabel *)p0;
+	-(UILabel *) itemNum;
+	-(void) setItemNum:(UILabel *)p0;
+	-(UIButton *) MinusBtn;
+	-(void) setMinusBtn:(UIButton *)p0;
+	-(UIButton *) PlusBtn;
+	-(void) setPlusBtn:(UIButton *)p0;
+	-(UIButton *) scanBtn;
+	-(void) setScanBtn:(UIButton *)p0;
+	-(UIButton *) SubmitBtn;
+	-(void) setSubmitBtn:(UIButton *)p0;
+	-(UIButton *) updateExpBtn;
+	-(void) setUpdateExpBtn:(UIButton *)p0;
+	-(void) viewDidLoad;
+	-(void) didReceiveMemoryWarning;
+	-(void) AddSwitchValueChanged:(UISwitch *)p0;
+	-(void) MinusBtn_TouchUpInside:(UIButton *)p0;
+	-(void) PlusBtn_TouchUpInside:(UIButton *)p0;
+	-(void) ScanBtn_TouchUpInside:(UIButton *)p0;
+	-(void) SubmitBtn_TouchUpInside:(UIButton *)p0;
+	-(void) UpdateExpBtn_TouchUpInside:(UIButton *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
+@interface addItemController : UIViewController {
+}
+	@property (nonatomic, assign) UILabel * addRemoveNum;
+	@property (nonatomic, assign) UITextField * expDateField;
+	@property (nonatomic, assign) UITextField * itemBarcodeField;
+	@property (nonatomic, assign) UITextField * itemNameField;
+	@property (nonatomic, assign) UIButton * MinusBtn;
+	@property (nonatomic, assign) UIButton * PlusBtn;
+	@property (nonatomic, assign) UIButton * scanBtn;
+	@property (nonatomic, assign) UIButton * submitBtn;
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UILabel *) addRemoveNum;
+	-(void) setAddRemoveNum:(UILabel *)p0;
+	-(UITextField *) expDateField;
+	-(void) setExpDateField:(UITextField *)p0;
+	-(UITextField *) itemBarcodeField;
+	-(void) setItemBarcodeField:(UITextField *)p0;
+	-(UITextField *) itemNameField;
+	-(void) setItemNameField:(UITextField *)p0;
+	-(UIButton *) MinusBtn;
+	-(void) setMinusBtn:(UIButton *)p0;
+	-(UIButton *) PlusBtn;
+	-(void) setPlusBtn:(UIButton *)p0;
+	-(UIButton *) scanBtn;
+	-(void) setScanBtn:(UIButton *)p0;
+	-(UIButton *) submitBtn;
+	-(void) setSubmitBtn:(UIButton *)p0;
+	-(void) viewDidLoad;
+	-(void) MinusBtn_TouchUpInside:(UIButton *)p0;
+	-(void) PlusBtn_TouchUpInside:(UIButton *)p0;
+	-(void) ScanBtn_TouchUpInside:(UIButton *)p0;
+	-(void) SubmitBtn_TouchUpInside:(UIButton *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
 @interface __UIGestureRecognizerToken : NSObject {
 }
 	-(void) release;
@@ -196,6 +248,7 @@
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
 	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
 @end
 
 @interface __UIGestureRecognizerParameterlessToken : __UIGestureRecognizerToken {

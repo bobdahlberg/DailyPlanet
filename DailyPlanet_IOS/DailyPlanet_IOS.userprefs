@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{7D698B11-BBA7-4290-834E-BF3C8629EF6D}|Default">
+  <MonoDevelop.Ide.ItemProperties.DailyPlanet__IOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.a5467037dd73c8ba443004a304d8f649e19acee9" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Main.storyboard">
+    <Files>
+      <File FileName="Main.storyboard" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="ItemController.cs" line="18" offsetX="531" offsetY="255" expression="addSwitch.State" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MultiItemStartupConfigurations />
+</Properties>

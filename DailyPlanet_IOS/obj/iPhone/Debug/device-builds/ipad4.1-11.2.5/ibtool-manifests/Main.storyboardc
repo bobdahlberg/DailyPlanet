@@ -8,45 +8,15 @@
 	<dict/>
 	<key>com.apple.ibtool.document.warnings</key>
 	<dict>
-		<key>12802</key>
+		<key>17273</key>
 		<array>
 			<dict>
 				<key>affected-objects</key>
 				<array>
-					<string>12802</string>
-				</array>
-				<key>message</key>
-				<string>“Item Controller“ is unreachable because it has no entry points, and no identifier for runtime access via -[UIStoryboard instantiateViewControllerWithIdentifier:].</string>
-				<key>type</key>
-				<string>IBUnsupportedConfiguration</string>
-				<key>type-value</key>
-				<integer>9</integer>
-			</dict>
-		</array>
-		<key>12820</key>
-		<array>
-			<dict>
-				<key>affected-objects</key>
-				<array>
-					<string>12820</string>
+					<string>17273</string>
 				</array>
 				<key>message</key>
 				<string>Automatically Adjusts Font requires using a Dynamic Type text style</string>
-				<key>type</key>
-				<string>IBUnsupportedConfiguration</string>
-				<key>type-value</key>
-				<integer>9</integer>
-			</dict>
-		</array>
-		<key>13184</key>
-		<array>
-			<dict>
-				<key>affected-objects</key>
-				<array>
-					<string>13184</string>
-				</array>
-				<key>message</key>
-				<string>“View Controller“ is unreachable because it has no entry points, and no identifier for runtime access via -[UIStoryboard instantiateViewControllerWithIdentifier:].</string>
 				<key>type</key>
 				<string>IBUnsupportedConfiguration</string>
 				<key>type-value</key>

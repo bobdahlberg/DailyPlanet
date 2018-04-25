@@ -70,6 +70,7 @@
 /Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/ipad4.1-11.2.5/optimized/Pics/Inventory.png
 /Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/ipad4.1-11.2.5/optimized/Pics/WeeklyReport2.png
 /Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/ipad4.1-11.2.5/optimized/Pics/DailyPlanetbackground.png
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/ipad4.1-11.2.5/optimized/Pics/AddItemButton.png
 /Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhone/Debug/device-builds/ipad4.1-11.2.5/optimized/
 /Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhone/Debug/DailyPlanet_IOS.csprojResolveAssemblyReference.cache
 /Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhone/Debug/DailyPlanet_IOS.csproj.CoreCompileInputs.cache
