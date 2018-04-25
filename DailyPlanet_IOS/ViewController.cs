@@ -13,6 +13,7 @@ namespace DailyPlanet_IOS
 {
     public partial class ViewController : UIViewController
     {
+
         protected ViewController(IntPtr handle) : base(handle)
         {
             // Note: this .ctor should not contain any initialization logic.
@@ -35,33 +36,37 @@ namespace DailyPlanet_IOS
 
             //var itemsViewController = segue.DestinationViewController as ItemController;
 
-
         }
 
+
+
+
+
+
+        /*
+         * onClick method for when the Scan button is clicked.
+         * It just runs the method which is in charge on scanning the barcode.
+        */
         partial void ScanBtn_TouchUpInside(UIButton sender)
         {
-            /*
-            MySqlConnection sqlconn;
-            string connsqlstring = "Server=dailyplanetinstance.cxsnwexuvrto.us-east-1.rds.amazonaws.com;Port=3306;database=dpdb;User Id=dailyplanet;Password=180beltgracE14;charset=utf8";            
-            sqlconn = new MySqlConnection();
-            sqlconn.ConnectionString = connsqlstring;
-            MySqlDataAdapter da;
-            sqlconn.Open();
-            string queryString = "select * from dptest.itemTable";
-            MySqlCommand sqlcmd = new MySqlCommand(queryString, sqlconn);
-            da = new MySqlDataAdapter(sqlcmd);
-            DataSet ds = new DataSet();
-            da.Fill(ds);
-            String result = sqlcmd.ExecuteScalar().ToString();
-            scanBarcode(result);
-            sqlconn.Close();
-            */
-
-
-
             scanBarcode();
         }
 
+
+
+
+
+
+
+
+
+
+
+        /*
+         * Scans the barcode and searches the database to see if the barcode scanned
+         * exists or not. Scans for all types of barcodes as shown below under barcode
+         * types. 
+        */
         private async Task scanBarcode()
         {
             //Creates the barcode scanner and adds camera 
@@ -70,6 +75,8 @@ namespace DailyPlanet_IOS
                 CameraResolutionSelector = HandleCameraResolutionSelectorDelegate
             };
 
+
+            //Possible barcode types
             options.PossibleFormats = new List<ZXing.BarcodeFormat>(){
                 ZXing.BarcodeFormat.EAN_8, ZXing.BarcodeFormat.EAN_13, ZXing.BarcodeFormat.IMB,
                 ZXing.BarcodeFormat.All_1D, ZXing.BarcodeFormat.CODE_39, ZXing.BarcodeFormat.CODE_93,
@@ -83,13 +90,15 @@ namespace DailyPlanet_IOS
             var scanner = new ZXing.Mobile.MobileBarcodeScanner(this);
             scanner.AutoFocus();
 
-            //Grabs the scanner result and displays it in the new page
-            //The new page is the itemController
+            //Grabs the scanner result
             var result = await scanner.Scan(options, true);
 
             string code = result.Text;
+
+            //If the scanner scans correctly, search the barcode
             if (result != null)
             {
+                //Searches the database for weather the barcode exists in the database
                 MySqlConnection sqlconn;
                 string connsqlstring = "Server=dailyplanetinstance.cxsnwexuvrto.us-east-1.rds.amazonaws.com;Port=3306;database=dpdb;User Id=dailyplanet;Password=180beltgracE14;charset=utf8";
                 sqlconn = new MySqlConnection();
@@ -151,7 +160,16 @@ namespace DailyPlanet_IOS
 
         }
 
-        //Sets camera resolution. Not sure what it really does lol 
+
+
+
+
+
+
+
+
+
+        //Sets camera resolution to auto focus.
         CameraResolution HandleCameraResolutionSelectorDelegate(List<CameraResolution> availableResolutions)
         {
             //Don't know if this will ever be null or empty
@@ -163,6 +181,15 @@ namespace DailyPlanet_IOS
             return availableResolutions[availableResolutions.Count - 1];
         }
 
+
+
+
+
+
+
+        /*
+         * Onclick method when add item button is clicked and navigates to the add item
+         */
         partial void AddItemBtn_TouchUpInside(UIButton sender)
         {
             addItemController controller = this.Storyboard.InstantiateViewController("addItemStory") as addItemController;;

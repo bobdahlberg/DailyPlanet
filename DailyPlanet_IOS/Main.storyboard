@@ -189,7 +189,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17261">
-                                <rect key="frame" x="45" y="609" width="131" height="50"/>
+                                <rect key="frame" x="45" y="579" width="131" height="50"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Submit"/>
                                 <connections>
@@ -224,7 +224,7 @@
                                 </constraints>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17273">
-                                <rect key="frame" x="224" y="127" width="120" height="21"/>
+                                <rect key="frame" x="224" y="127" width="156" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -233,7 +233,7 @@
                                 </constraints>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Quantity: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17275">
-                                <rect key="frame" x="217" y="168" width="127" height="29"/>
+                                <rect key="frame" x="217" y="164" width="127" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -242,7 +242,7 @@
                                 </constraints>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="378" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17277">
-                                <rect key="frame" x="230" y="209" width="56" height="27"/>
+                                <rect key="frame" x="230" y="205" width="56" height="27"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -251,7 +251,7 @@
                                 </constraints>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="17279">
-                                <rect key="frame" x="184" y="352" width="48" height="31"/>
+                                <rect key="frame" x="184" y="322" width="48" height="31"/>
                                 <connections>
                                     <action selector="AddSwitchValueChanged:" destination="13184" eventType="valueChanged" id="17433"/>
                                 </connections>
@@ -260,7 +260,7 @@
                                 </constraints>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17283">
-                                <rect key="frame" x="34" y="395" width="346" height="34"/>
+                                <rect key="frame" x="34" y="365" width="346" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
@@ -268,7 +268,7 @@
                                 </constraints>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="22520" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="243" y="609" width="112" height="50"/>
+                                <rect key="frame" x="243" y="579" width="112" height="50"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Scan"/>
                                 <connections>
@@ -279,7 +279,7 @@
                                 </constraints>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="30747">
-                                <rect key="frame" x="256" y="443" width="78" height="70"/>
+                                <rect key="frame" x="256" y="413" width="78" height="70"/>
                                 <state key="normal" backgroundImage="Pics/upButton.png"/>
                                 <connections>
                                     <action selector="PlusBtn_TouchUpInside:" destination="30749" eventType="touchUpInside" id="30748"/>
@@ -290,7 +290,7 @@
                                 </constraints>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="30751">
-                                <rect key="frame" x="258" y="533" width="74" height="66"/>
+                                <rect key="frame" x="258" y="503" width="74" height="66"/>
                                 <state key="normal" backgroundImage="Pics/downButton.png"/>
                                 <connections>
                                     <action selector="MinusBtn_TouchUpInside:" destination="30749" eventType="touchUpInside" id="30752"/>
@@ -301,7 +301,7 @@
                                 </constraints>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30754">
-                                <rect key="frame" x="87" y="496" width="89" height="79"/>
+                                <rect key="frame" x="87" y="466" width="89" height="79"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -310,7 +310,7 @@
                                 </constraints>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Exp Date:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="44812" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="215" y="256" width="117" height="21"/>
+                                <rect key="frame" x="215" y="248" width="165" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -319,7 +319,7 @@
                                 </constraints>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exp Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="44813" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="224" y="289" width="110" height="21"/>
+                                <rect key="frame" x="224" y="281" width="154" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -345,21 +345,18 @@
                             <constraint id="44817" firstItem="17267" firstAttribute="top" secondItem="13181" secondAttribute="bottom" constant="20"/>
                             <constraint id="44824" firstItem="13185" firstAttribute="trailingMargin" secondItem="17271" secondAttribute="trailing" constant="50"/>
                             <constraint id="44827" firstItem="17271" firstAttribute="top" secondItem="17267" secondAttribute="bottom" constant="22"/>
-                            <constraint id="44834" firstItem="13185" firstAttribute="trailingMargin" secondItem="17273" secondAttribute="trailing" constant="50"/>
                             <constraint id="44837" firstItem="17273" firstAttribute="top" secondItem="17271" secondAttribute="bottom" constant="12"/>
                             <constraint id="44838" firstItem="13185" firstAttribute="trailingMargin" secondItem="17275" secondAttribute="trailing" constant="50"/>
-                            <constraint id="44841" firstItem="17275" firstAttribute="top" secondItem="17273" secondAttribute="bottom" constant="20"/>
+                            <constraint id="44841" firstItem="17275" firstAttribute="top" secondItem="17273" secondAttribute="bottom" constant="16"/>
                             <constraint id="44842" firstItem="13185" firstAttribute="trailingMargin" secondItem="17277" secondAttribute="trailing" constant="108"/>
                             <constraint id="44845" firstItem="17277" firstAttribute="top" secondItem="17275" secondAttribute="bottom" constant="12"/>
-                            <constraint id="44846" firstItem="13185" firstAttribute="trailingMargin" secondItem="44812" secondAttribute="trailing" constant="62"/>
-                            <constraint id="44849" firstItem="44812" firstAttribute="top" secondItem="17277" secondAttribute="bottom" constant="20"/>
+                            <constraint id="44849" firstItem="44812" firstAttribute="top" secondItem="17277" secondAttribute="bottom" constant="16"/>
                             <constraint id="44851" firstItem="17269" firstAttribute="leading" secondItem="13185" secondAttribute="leadingMargin" constant="16"/>
                             <constraint id="44853" firstItem="17269" firstAttribute="top" secondItem="17267" secondAttribute="bottom" constant="27"/>
-                            <constraint id="44854" firstItem="13185" firstAttribute="trailingMargin" secondItem="44813" secondAttribute="trailing" constant="60"/>
                             <constraint id="44857" firstItem="44813" firstAttribute="top" secondItem="44812" secondAttribute="bottom" constant="12"/>
                             <constraint id="45316" firstItem="13185" firstAttribute="trailingMargin" secondItem="17279" secondAttribute="trailing" constant="164"/>
                             <constraint id="45317" firstItem="17279" firstAttribute="leading" secondItem="13185" secondAttribute="leadingMargin" constant="164"/>
-                            <constraint id="45322" firstItem="17279" firstAttribute="top" secondItem="44813" secondAttribute="bottom" constant="42"/>
+                            <constraint id="45322" firstItem="17279" firstAttribute="top" secondItem="44813" secondAttribute="bottom" constant="20"/>
                             <constraint id="45323" firstItem="13185" firstAttribute="trailingMargin" secondItem="17283" secondAttribute="trailing" constant="14"/>
                             <constraint id="45324" firstItem="17283" firstAttribute="leading" secondItem="13185" secondAttribute="leadingMargin" constant="14"/>
                             <constraint id="45326" firstItem="17283" firstAttribute="top" secondItem="17279" secondAttribute="bottom" constant="12"/>
@@ -388,6 +385,9 @@
                             <constraint id="47327" firstItem="17267" firstAttribute="centerX" secondItem="46815" secondAttribute="trailing" constant="31"/>
                             <constraint id="47329" firstItem="46815" firstAttribute="leading" secondItem="13185" secondAttribute="leadingMargin" constant="14"/>
                             <constraint id="47330" firstItem="46815" firstAttribute="top" secondItem="17269" secondAttribute="bottom" constant="18"/>
+                            <constraint id="56191" firstItem="13185" firstAttribute="trailingMargin" secondItem="17273" secondAttribute="trailing" constant="14"/>
+                            <constraint id="57454" firstItem="13185" firstAttribute="trailingMargin" secondItem="44812" secondAttribute="trailing" constant="14"/>
+                            <constraint id="57470" firstItem="13185" firstAttribute="trailingMargin" secondItem="44813" secondAttribute="trailing" constant="16"/>
                         </constraints>
                     </view>
                     <connections>

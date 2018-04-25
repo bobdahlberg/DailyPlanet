@@ -94,9 +94,9 @@
 /Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Pics/Inventory.png
 /Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Pics/WeeklyReport2.png
 /Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Pics/DailyPlanetbackground.png
+/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Pics/AddItemButton.png
 /Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/
 /Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/DailyPlanet_IOS.csprojResolveAssemblyReference.cache
 /Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/DailyPlanet_IOS.csproj.CoreCompileInputs.cache
 /Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/DailyPlanet_IOS.exe
 /Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/DailyPlanet_IOS.pdb
-/Users/abdullahhashmi/DailyPlanet/DailyPlanet_IOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Pics/AddItemButton.png

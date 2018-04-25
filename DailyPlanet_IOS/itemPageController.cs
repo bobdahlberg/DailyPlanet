@@ -294,6 +294,23 @@ namespace DailyPlanet_IOS
             itemNum.Text = itemNumberText;
             //addLabel.Text = addLabelText;
 
+            MySqlConnection sqlconn;
+            string connsqlstring = "Server=dailyplanetinstance.cxsnwexuvrto.us-east-1.rds.amazonaws.com;Port=3306;database=dpdb;User Id=dailyplanet;Password=180beltgracE14;charset=utf8";
+            sqlconn = new MySqlConnection();
+            sqlconn.ConnectionString = connsqlstring;
+            sqlconn.Open();
+            string queryString = "select itemExpDate from dpdb.itemTable where itemID = " + "'" + barcodeLabel.Text + "'";
+            MySqlCommand sqlcmd = new MySqlCommand(queryString, sqlconn);
+            String result = sqlcmd.ExecuteScalar().ToString();
+            sqlconn.Close();
+
+            if(result.Length <= 1)
+            {
+                result = "No Exp Date";
+            }  
+
+            expDate.Text = result;
+
         }
 
         public override void DidReceiveMemoryWarning()

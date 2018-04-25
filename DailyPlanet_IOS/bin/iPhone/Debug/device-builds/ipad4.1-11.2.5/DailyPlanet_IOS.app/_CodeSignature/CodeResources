@@ -6,11 +6,11 @@
 	<dict>
 		<key>DailyPlanet_IOS.aotdata.arm64</key>
 		<data>
-		p1M5LuDHucyZO4aAljdGJIDsq7k=
+		od/FTzIWGqOTBSZgW4wy5L6Jc/Y=
 		</data>
 		<key>DailyPlanet_IOS.exe</key>
 		<data>
-		MfwYiiIMW9KLqxRtzWQYqj9kNa4=
+		a8uHdTlnKqiO6gA5W+67Bqa9BDI=
 		</data>
 		<key>DailyPlanet_IOS.exe.config</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>DailyPlanet_IOS.pdb</key>
 		<data>
-		4Fu45XA77clOmLc49wUiJKCgM8A=
+		nMfcreEOM4eyX1WN530v3nPJrQ0=
 		</data>
 		<key>I18N.West.aotdata.arm64</key>
 		<data>
@@ -66,19 +66,19 @@
 		</data>
 		<key>Main.storyboardc/13184-view-13185.nib</key>
 		<data>
-		nRPNH1XU5whYDixUKcIZtsCKX4Q=
+		gl9rigMEH4Bxu0THZE4kqeBLZdM=
 		</data>
 		<key>Main.storyboardc/30197-view-30198.nib</key>
 		<data>
-		fO6zAmwdOfHVPWY4ArzUEUalLGU=
+		LYYHeFT21tuMUi8qrBGs1676XJg=
 		</data>
 		<key>Main.storyboardc/5274-view-5275.nib</key>
 		<data>
-		whH3tKF6vR6dlAhij7ksHguA2D8=
+		V7XaN82/VJzdLZJzCyGxacJKldU=
 		</data>
 		<key>Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		3WysKvSvmdSGsQFQGZ+JzULEUM8=
+		cpO+Wjnw1WLun0WyDlyx+F4fL/w=
 		</data>
 		<key>Main.storyboardc/Info.plist</key>
 		<data>
@@ -86,19 +86,19 @@
 		</data>
 		<key>Main.storyboardc/UINavigationController-3113.nib</key>
 		<data>
-		OEl/sI4xLnTYvL5d2qs7ZLpRtyo=
+		97LCJiYdqKGsGf4L1vEdOhIdPyw=
 		</data>
 		<key>Main.storyboardc/UITableViewController-5274.nib</key>
 		<data>
-		yRwvYTHfLZMlkvdqLx8fZdrWwUE=
+		Pec7X2PZZTi/Ra8dME6cBs5JBW8=
 		</data>
 		<key>Main.storyboardc/addItemStory.nib</key>
 		<data>
-		zyxm6JTlCQk9or3i1GxG4u9spnQ=
+		IBqb740sdUEdwVIr0HHiJNF71h4=
 		</data>
 		<key>Main.storyboardc/itemStory.nib</key>
 		<data>
-		mlbTRPbvj/j5rglQP95WpRaaOuE=
+		l0raA5Q12+y4zBZmiublSr/pHCc=
 		</data>
 		<key>Mono.Security.aotdata.arm64</key>
 		<data>
@@ -321,11 +321,11 @@
 		</dict>
 		<key>libDailyPlanet_IOS.exe.dylib</key>
 		<data>
-		em/2dLQJam38SXhKLk72yNQBjbc=
+		2zIb6AdFDRHaSny60Je/oJ+yXqc=
 		</data>
 		<key>libI18N.West.dll.dylib</key>
 		<data>
-		xPqX1PLR78cLoYdBRJR7vnRp3Uo=
+		u9M3AutbF++a06KpwEz1ZI/njJ4=
 		</data>
 		<key>libI18N.dll.dylib</key>
 		<data>
@@ -333,7 +333,7 @@
 		</data>
 		<key>libMono.Security.dll.dylib</key>
 		<data>
-		qPgdGotocP3wYyUHgKOu4+LDctY=
+		lv++l1BqpIm5OVWvQPWy7o/bhuQ=
 		</data>
 		<key>libMySql.Data.CF.dll.dylib</key>
 		<data>
@@ -353,7 +353,7 @@
 		</data>
 		<key>libSystem.Xml.dll.dylib</key>
 		<data>
-		gYVNrzthp1KmRWL+pt75nfCcIw4=
+		yxjhJY9B2Y8gfulfQOCPWQ2gdmc=
 		</data>
 		<key>libSystem.dll.dylib</key>
 		<data>
@@ -361,7 +361,7 @@
 		</data>
 		<key>libXamarin.iOS.dll.dylib</key>
 		<data>
-		1ia1BJEAIohMbv2Mfawj7FAlnng=
+		Q3s3JlkyITUFAD4JwY/a6XKk+TU=
 		</data>
 		<key>libZXing.Net.Mobile.Core.dll.dylib</key>
 		<data>
@@ -369,11 +369,11 @@
 		</data>
 		<key>libZXingNetMobile.dll.dylib</key>
 		<data>
-		B0Y0x4e+VbDsG+hZoD7SGpXAmJg=
+		7UaiTeejowpMkpgm5Y3NerFKOrE=
 		</data>
 		<key>libmonosgen-2.0.dylib</key>
 		<data>
-		+LxT8UU8Z4zZVLEuwIukMTD2Xvk=
+		RcSBmroFQuriEs2ZH/LJynPq8KI=
 		</data>
 		<key>libmscorlib.dll.dylib</key>
 		<data>
@@ -414,22 +414,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p1M5LuDHucyZO4aAljdGJIDsq7k=
+			od/FTzIWGqOTBSZgW4wy5L6Jc/Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			FobHLRjWbb9QRnkXsgczgFugLipOWen717AcXW4Gfio=
+			ZrSi+KTdFON8ViZfU0YmTTmK9J2Fx/qUWDNLUlzFnhg=
 			</data>
 		</dict>
 		<key>DailyPlanet_IOS.exe</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MfwYiiIMW9KLqxRtzWQYqj9kNa4=
+			a8uHdTlnKqiO6gA5W+67Bqa9BDI=
 			</data>
 			<key>hash2</key>
 			<data>
-			nK/WENOiAR9Rg+YcqaHQ8QqoMvlmWxAu4zE8cVr9XaY=
+			ck769K/G2CtoC/HqjkLQ2FTFOr+Q+sJoHjQmkYbJO50=
 			</data>
 		</dict>
 		<key>DailyPlanet_IOS.exe.config</key>
@@ -447,11 +447,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4Fu45XA77clOmLc49wUiJKCgM8A=
+			nMfcreEOM4eyX1WN530v3nPJrQ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			i8LyO9ZIxo/KE5Ep+I4FhcSjp0j1+lA6FTjiSF7+LbE=
+			QcbugFOO/4IQRhY3gbeRU2TZ5j7A6XeSUM6zrnlDV78=
 			</data>
 		</dict>
 		<key>I18N.West.aotdata.arm64</key>
@@ -568,44 +568,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nRPNH1XU5whYDixUKcIZtsCKX4Q=
+			gl9rigMEH4Bxu0THZE4kqeBLZdM=
 			</data>
 			<key>hash2</key>
 			<data>
-			pfqFjHoOqbFe3bVWZnYOvUTWcEGg9FmNGQaYd0a7jvU=
+			KoxjiQsRPvueIcUpEjtJMmjk5uEGDO02MydqD3aUsvs=
 			</data>
 		</dict>
 		<key>Main.storyboardc/30197-view-30198.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fO6zAmwdOfHVPWY4ArzUEUalLGU=
+			LYYHeFT21tuMUi8qrBGs1676XJg=
 			</data>
 			<key>hash2</key>
 			<data>
-			BfAaajwdoE+MS3YySIcKFo6KM2cNj8EE4S60jxG4C3s=
+			/RVWCmZK8vuDrTeSTg0RJ2CYydh7Q6f1giSRdeHzx38=
 			</data>
 		</dict>
 		<key>Main.storyboardc/5274-view-5275.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			whH3tKF6vR6dlAhij7ksHguA2D8=
+			V7XaN82/VJzdLZJzCyGxacJKldU=
 			</data>
 			<key>hash2</key>
 			<data>
-			t8RqfbvnetnE5oOt5pcnGV9qieAC6MURRTt2yoHhnfU=
+			f47O2POBYcV/zrjx/YVkEpFrNMsCQGXsIuNALLqSorI=
 			</data>
 		</dict>
 		<key>Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3WysKvSvmdSGsQFQGZ+JzULEUM8=
+			cpO+Wjnw1WLun0WyDlyx+F4fL/w=
 			</data>
 			<key>hash2</key>
 			<data>
-			jV885S7/RZRNlK5EWKfrFNHqHw+Qb9RsZfOB5TlxLw8=
+			DcE8yH5Xjw2tsrU6pT95mibS9Zk58ZXICccTS4BiPMw=
 			</data>
 		</dict>
 		<key>Main.storyboardc/Info.plist</key>
@@ -623,44 +623,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OEl/sI4xLnTYvL5d2qs7ZLpRtyo=
+			97LCJiYdqKGsGf4L1vEdOhIdPyw=
 			</data>
 			<key>hash2</key>
 			<data>
-			79TBmUVl+Z/oC/llVzoeDzX7q8sc076poMX+iBYFiXY=
+			e5v9eeVFnLxJ4+rXs8d2i0poIpb6trXRyBYx8SYroX8=
 			</data>
 		</dict>
 		<key>Main.storyboardc/UITableViewController-5274.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yRwvYTHfLZMlkvdqLx8fZdrWwUE=
+			Pec7X2PZZTi/Ra8dME6cBs5JBW8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ymNAIcY+A7MQPygG+6h/62uZGwzK6zlOLUlgSSddZss=
+			tyl1odo+M3eWrVhiF4Lac/LfKLpgGYNx6sAK941fy0g=
 			</data>
 		</dict>
 		<key>Main.storyboardc/addItemStory.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zyxm6JTlCQk9or3i1GxG4u9spnQ=
+			IBqb740sdUEdwVIr0HHiJNF71h4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Bh8O1W0hQD8iEJ5jsPh4+0zQwPSWesqNMHG32UJqDQk=
+			aeu0G6jHMcxHCsSUYCKwx4t5fL7xuYO8cseGijxv5H8=
 			</data>
 		</dict>
 		<key>Main.storyboardc/itemStory.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mlbTRPbvj/j5rglQP95WpRaaOuE=
+			l0raA5Q12+y4zBZmiublSr/pHCc=
 			</data>
 			<key>hash2</key>
 			<data>
-			SKms2ewgCnUAq0GObkHT66iHB691nz4wcx2KA32ThXE=
+			RUCjoDsYNHengV/RZ3zO5Mjz8KckDI/no3OVcUCavEQ=
 			</data>
 		</dict>
 		<key>Mono.Security.aotdata.arm64</key>
@@ -1223,22 +1223,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			em/2dLQJam38SXhKLk72yNQBjbc=
+			2zIb6AdFDRHaSny60Je/oJ+yXqc=
 			</data>
 			<key>hash2</key>
 			<data>
-			M1V11paaT2rsvJxUUNXgP+wklJBzukSlShGpIS0xg+M=
+			rNvc3caAy+7eBdut3gEx7Ga2TmekidIS9w7h7N0IU7c=
 			</data>
 		</dict>
 		<key>libI18N.West.dll.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xPqX1PLR78cLoYdBRJR7vnRp3Uo=
+			u9M3AutbF++a06KpwEz1ZI/njJ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xz1j/35YPkQ/P7dIytI/DJXmJufygpneMQ9r6Na8p0w=
+			zwRrADKgsSvF+2ELmckyWuRE4XvqEgCK8vx1LJKNhSA=
 			</data>
 		</dict>
 		<key>libI18N.dll.dylib</key>
@@ -1256,11 +1256,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qPgdGotocP3wYyUHgKOu4+LDctY=
+			lv++l1BqpIm5OVWvQPWy7o/bhuQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			F4SZ5+zlW4uMictKTjJiodSc8Za9QlxV5Bd79y3uooE=
+			FTHoL64qEaawn0+iAcyX7KERejvczNEdpnGIHmzn7/w=
 			</data>
 		</dict>
 		<key>libMySql.Data.CF.dll.dylib</key>
@@ -1311,11 +1311,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gYVNrzthp1KmRWL+pt75nfCcIw4=
+			yxjhJY9B2Y8gfulfQOCPWQ2gdmc=
 			</data>
 			<key>hash2</key>
 			<data>
-			cCvZ96uSQh9ysecK2327AH4lYI4q9xLneICNcov3/SI=
+			sYg9E6SNnrB/Qt7aLZqyC+sArL7MCKVLb1j41n8d4+w=
 			</data>
 		</dict>
 		<key>libSystem.dll.dylib</key>
@@ -1333,11 +1333,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1ia1BJEAIohMbv2Mfawj7FAlnng=
+			Q3s3JlkyITUFAD4JwY/a6XKk+TU=
 			</data>
 			<key>hash2</key>
 			<data>
-			VReUSymdC3Q9JutBiSL61tXA9ozY/eYaeP//PkbEas0=
+			cfXGNDLD2YKR8D/oS4/O8d1ha4ue2bQtHpohba+fHfE=
 			</data>
 		</dict>
 		<key>libZXing.Net.Mobile.Core.dll.dylib</key>
@@ -1355,22 +1355,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			B0Y0x4e+VbDsG+hZoD7SGpXAmJg=
+			7UaiTeejowpMkpgm5Y3NerFKOrE=
 			</data>
 			<key>hash2</key>
 			<data>
-			6XNVzhOU/1OOkcb3m9oyIpLuCgSHkM1IDJ24FknUTgY=
+			awh4FbmLB/gPz8KC7Rjjak5cpEUkZ8kZz6JIDZJr1sI=
 			</data>
 		</dict>
 		<key>libmonosgen-2.0.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+LxT8UU8Z4zZVLEuwIukMTD2Xvk=
+			RcSBmroFQuriEs2ZH/LJynPq8KI=
 			</data>
 			<key>hash2</key>
 			<data>
-			NeTy6fhmrGOpzcMSdZ25z7mQMQEvG/3e24J8qk0mQrQ=
+			qdAXK4+YP4hBcgu2K1tK+MleLSwbnCXADdcWU51GCwE=
 			</data>
 		</dict>
 		<key>libmscorlib.dll.dylib</key>

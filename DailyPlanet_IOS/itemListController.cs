@@ -27,6 +27,7 @@ namespace DailyPlanet_IOS
             List<String> columnNames = new List<String>();
             List<String> columnCodes = new List<String>();
             List<String> columnQuant = new List<String>();
+            List<String> columnExp = new List<String>();
 
             string connsqlstring = "Server=dailyplanetinstance.cxsnwexuvrto.us-east-1.rds.amazonaws.com;Port=3306;database=dpdb;User Id=dailyplanet;Password=180beltgracE14;charset=utf8";
 
@@ -86,7 +87,7 @@ namespace DailyPlanet_IOS
                 {
                     itemName = columnNames[i],
                     itemCode = columnCodes[i],
-                    itemNumber = columnQuant[i]
+                    itemNumber = columnQuant[i],
                 });
             }
 
