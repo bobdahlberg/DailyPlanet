@@ -38,11 +38,6 @@ namespace DailyPlanet_IOS
 
         }
 
-
-
-
-
-
         /*
          * onClick method for when the Scan button is clicked.
          * It just runs the method which is in charge on scanning the barcode.
@@ -51,16 +46,6 @@ namespace DailyPlanet_IOS
         {
             scanBarcode();
         }
-
-
-
-
-
-
-
-
-
-
 
         /*
          * Scans the barcode and searches the database to see if the barcode scanned

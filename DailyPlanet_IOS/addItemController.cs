@@ -17,6 +17,12 @@ namespace DailyPlanet_IOS
         {
         }
 
+
+        /*
+         * On Load method that sets the keyboard options for the text fields.
+         * Lets user click out side of the field to close the keyboard for each 
+         * field.
+         */
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
@@ -41,12 +47,19 @@ namespace DailyPlanet_IOS
             View.AddGestureRecognizer(g);
         }
 
+        /*
+         * ON Click button to scan barcode. Calls the method scanBarcode().
+         * The reason being that an onclick method cannot have an async task.
+         */
         partial void ScanBtn_TouchUpInside(UIButton sender)
         {
             scanBarcode();
         }
 
 
+        /*
+         * Method to scan barcode and populate the barcodefield.
+         */
         private async Task scanBarcode()
         {
             //Creates the barcode scanner and adds camera 
@@ -68,8 +81,7 @@ namespace DailyPlanet_IOS
             var scanner = new ZXing.Mobile.MobileBarcodeScanner(this);
             scanner.AutoFocus();
 
-            //Grabs the scanner result and displays it in the new page
-            //The new page is the itemController
+            //Grabs the scanner result and displays it in the field
             var result = await scanner.Scan(options, true);
 
             string code = result.Text;
@@ -79,7 +91,7 @@ namespace DailyPlanet_IOS
             }
         }
 
-        //Sets camera resolution. Not sure what it really does lol 
+        //Sets camera resolution.
         CameraResolution HandleCameraResolutionSelectorDelegate(List<CameraResolution> availableResolutions)
         {
             //Don't know if this will ever be null or empty
@@ -91,7 +103,9 @@ namespace DailyPlanet_IOS
             return availableResolutions[availableResolutions.Count - 1];
         }
 
-
+        /*
+         * Increments the quantity number.
+         */
         partial void PlusBtn_TouchUpInside(UIButton sender)
         {
             int num = Convert.ToInt32(addRemoveNum.Text);
@@ -99,6 +113,9 @@ namespace DailyPlanet_IOS
             addRemoveNum.Text = num.ToString();
         }
 
+        /*
+         * Decrements the quantity number.
+         */
         partial void MinusBtn_TouchUpInside(UIButton sender)
         {
             int num = Convert.ToInt32(addRemoveNum.Text);
@@ -106,6 +123,11 @@ namespace DailyPlanet_IOS
             addRemoveNum.Text = num.ToString();
         }
 
+        /*
+         * Onclick method for the submit button. 
+         * Grabs all the data in the fields (barcode, name, quanity, expdate)
+         * and inserts it to the database. Then displays the new 
+         */
         partial void SubmitBtn_TouchUpInside(UIButton sender)
         {
             int num = Convert.ToInt32(addRemoveNum.Text);

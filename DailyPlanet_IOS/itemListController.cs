@@ -22,6 +22,9 @@ namespace DailyPlanet_IOS
         {
         }
 
+        /*
+         * Constructor that queries the database for name, barcode, and quantity.
+         */
         public itemListController (IntPtr handle) : base (handle)
         {
             List<String> columnNames = new List<String>();
@@ -93,6 +96,11 @@ namespace DailyPlanet_IOS
 
         }
 
+        /*
+         * On load method which sets the ResultsTableController which includes the
+         * populated cells. Also sets the search bar at the top of the screen to be
+         * used as well.
+         */
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
@@ -131,6 +139,9 @@ namespace DailyPlanet_IOS
         }
 
 
+        /*
+         * Begins to search the list of items based on keywords in the item name.
+         */
         List<Item> PerformSearch(string searchString)
         {
             searchString = searchString.Trim();
@@ -162,6 +173,9 @@ namespace DailyPlanet_IOS
             return filteredProducts.Distinct().ToList();
         }
 
+        /*
+         * Updates the list when item is being typed in. 
+         */
         [Export("updateSearchResultsForSearchController:")]
         public virtual void UpdateSearchResultsForSearchController(UISearchController searchController)
         {
@@ -186,6 +200,10 @@ namespace DailyPlanet_IOS
             return itemList.Count;
         }
 
+        /*
+         * Method for when item is selected from the list. Creates a new item page
+         * with all the information from the selected item and populates the page.
+         */
         public override void RowSelected(UITableView tableView, NSIndexPath indexPath)
         {
             Item selectedItem = (tableView == TableView) ? itemList[indexPath.Row] : resultsTableController.FilteredProducts[indexPath.Row];

@@ -161,6 +161,12 @@ namespace DailyPlanet_IOS
 
         }
 
+
+        /*
+         * Method to update the expiration date on an item. Pops up an alert 
+         * for user to enter in a new expiration data and updates the current 
+         * date to the new one and also updates the database. 
+         */
         partial void UpdateExpBtn_TouchUpInside(UIButton sender)
         {
             var expDateAlert = UIAlertController.Create(
@@ -216,7 +222,7 @@ namespace DailyPlanet_IOS
 
         }
 
-        //Sets camera resolution. Not sure what it really does lol 
+        //Sets camera resolution.
         CameraResolution HandleCameraResolutionSelectorDelegate(List<CameraResolution> availableResolutions)
         {
             //Don't know if this will ever be null or empty
@@ -233,7 +239,7 @@ namespace DailyPlanet_IOS
          * These strings are created so that they can be accessed 
          * by the ViewController. In the ViewController.cs there
          * are comments on where they are being accessed and 
-         * changed. So if you add anything to the itemController.xib
+         * changed. So if you add anything to the itemController storyboard
          * and you need to access it from the ViewController then just 
          * add a string and set it below in the ViewDidLoad().
         */
@@ -268,6 +274,9 @@ namespace DailyPlanet_IOS
             set;
         }
 
+        /*
+         * Sets the value of the toggle to either 'add' or 'remove'.
+         */
         partial void AddSwitchValueChanged(UISwitch sender)
         {
             bool state = ((UISwitch)addSwitch).On;
@@ -281,6 +290,11 @@ namespace DailyPlanet_IOS
             }
         }
 
+
+        /*
+         * On load method which sets the strings, pulls expiration date from the
+         * database, and populates the field. 
+         */
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();

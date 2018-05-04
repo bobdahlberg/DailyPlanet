@@ -422,7 +422,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="30208" translatesAutoresizingMaskIntoConstraints="NO" text="Item Quantity">
-                                <rect key="frame" x="36" y="371" width="342" height="29"/>
+                                <rect key="frame" x="36" y="351" width="342" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -431,7 +431,7 @@
                                 </constraints>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Code" borderStyle="roundedRect" minimumFontSize="17" id="30209" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center">
-                                <rect key="frame" x="36" y="222" width="160" height="30"/>
+                                <rect key="frame" x="36" y="202" width="160" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -440,7 +440,7 @@
                                 </constraints>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="30210" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="210" y="222" width="176" height="30"/>
+                                <rect key="frame" x="210" y="202" width="176" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Scan"/>
                                 <constraints>
@@ -451,7 +451,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Code" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="30211" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="36" y="181" width="342" height="21"/>
+                                <rect key="frame" x="36" y="161" width="342" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -460,7 +460,7 @@
                                 </constraints>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Name" borderStyle="roundedRect" minimumFontSize="17" id="30212" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="36" y="131" width="342" height="30"/>
+                                <rect key="frame" x="36" y="111" width="342" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -469,7 +469,7 @@
                                 </constraints>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="30213" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="36" y="90" width="342" height="21"/>
+                                <rect key="frame" x="36" y="70" width="342" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -478,7 +478,7 @@
                                 </constraints>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="30214" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="36" y="614" width="342" height="62"/>
+                                <rect key="frame" x="36" y="594" width="342" height="62"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="Submit"/>
                                 <constraints>
@@ -489,7 +489,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17285">
-                                <rect key="frame" x="256" y="420" width="79" height="83"/>
+                                <rect key="frame" x="256" y="400" width="79" height="83"/>
                                 <state key="normal" backgroundImage="Pics/upButton.png"/>
                                 <connections>
                                     <action selector="PlusBtn_TouchUpInside:" destination="13184" eventType="touchUpInside" id="17445"/>
@@ -500,7 +500,7 @@
                                 </constraints>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17289">
-                                <rect key="frame" x="260" y="515" width="71" height="66"/>
+                                <rect key="frame" x="260" y="495" width="71" height="66"/>
                                 <state key="normal" backgroundImage="Pics/downButton.png"/>
                                 <connections>
                                     <action selector="MinusBtn_TouchUpInside:" destination="13184" eventType="touchUpInside" id="17448"/>
@@ -511,7 +511,7 @@
                                 </constraints>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17292">
-                                <rect key="frame" x="81" y="460" width="89" height="79"/>
+                                <rect key="frame" x="81" y="440" width="89" height="79"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -520,7 +520,7 @@
                                 </constraints>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Expiration Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="52638" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="36" y="272" width="342" height="29"/>
+                                <rect key="frame" x="36" y="252" width="342" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -529,7 +529,7 @@
                                 </constraints>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="No Exp Date" borderStyle="roundedRect" minimumFontSize="17" id="52716" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center">
-                                <rect key="frame" x="134" y="321" width="147" height="30"/>
+                                <rect key="frame" x="134" y="301" width="147" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -541,7 +541,7 @@
                         <constraints>
                             <constraint id="30278" firstItem="30213" firstAttribute="trailing" secondItem="30198" secondAttribute="trailingMargin" constant="-16"/>
                             <constraint id="30285" firstItem="30198" firstAttribute="leadingMargin" secondItem="30213" secondAttribute="leading" constant="-16"/>
-                            <constraint id="30299" firstItem="30213" firstAttribute="top" secondItem="30194" secondAttribute="bottom" constant="70"/>
+                            <constraint id="30299" firstItem="30213" firstAttribute="top" secondItem="30194" secondAttribute="bottom" constant="50"/>
                             <constraint id="30306" firstItem="30198" firstAttribute="trailingMargin" secondItem="30212" secondAttribute="trailing" constant="16"/>
                             <constraint id="30313" firstItem="30212" firstAttribute="leading" secondItem="30198" secondAttribute="leadingMargin" constant="16"/>
                             <constraint id="30327" firstItem="30212" firstAttribute="top" secondItem="30213" secondAttribute="bottom" constant="20"/>
@@ -556,7 +556,6 @@
                             <constraint id="30483" firstItem="30209" firstAttribute="top" secondItem="30211" secondAttribute="bottom" constant="20"/>
                             <constraint id="30669" firstItem="30198" firstAttribute="trailingMargin" secondItem="30214" secondAttribute="trailing" constant="16"/>
                             <constraint id="30676" firstItem="30214" firstAttribute="leading" secondItem="30198" secondAttribute="leadingMargin" constant="16"/>
-                            <constraint id="30690" firstItem="30195" firstAttribute="top" secondItem="30214" secondAttribute="bottom" constant="60"/>
                             <constraint id="52807" firstItem="30198" firstAttribute="trailingMargin" secondItem="52638" secondAttribute="trailing" constant="16"/>
                             <constraint id="52813" firstItem="52638" firstAttribute="leading" secondItem="30198" secondAttribute="leadingMargin" constant="16"/>
                             <constraint id="52825" firstItem="52638" firstAttribute="top" secondItem="30209" secondAttribute="bottom" constant="20"/>
@@ -575,6 +574,7 @@
                             <constraint id="52962" firstItem="30198" firstAttribute="trailingMargin" secondItem="17289" secondAttribute="trailing" constant="63"/>
                             <constraint id="52968" firstItem="17289" firstAttribute="leading" secondItem="30208" secondAttribute="centerX" constant="53"/>
                             <constraint id="52980" firstItem="17289" firstAttribute="top" secondItem="17285" secondAttribute="bottom" constant="12"/>
+                            <constraint id="58722" firstItem="30214" firstAttribute="top" secondItem="17289" secondAttribute="bottom" constant="33"/>
                         </constraints>
                     </view>
                     <connections>
